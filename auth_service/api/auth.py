@@ -17,7 +17,7 @@ from core.security import (
 from auth.utils import hash_password, decode_jwt
 from repositories.auth_repository import AuthRepository
 
-from shared.core.db_config import get_auth_db, get_redis
+from common.core.db_config import get_auth_db, get_redis
 
 
 router = APIRouter(prefix="/auth", tags=["authentication"])

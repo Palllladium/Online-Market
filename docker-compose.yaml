@@ -15,7 +15,6 @@ services:
       redis:
         condition: service_healthy
     volumes:
-      - ./shared:/app/shared
       - ./certs:/app/certs
     networks:
       - app-network

@@ -7,7 +7,7 @@ from sqlmodel import select
 from typing import Annotated
 from redis.asyncio import Redis
 
-from shared.core.db_config import (
+from common.core.db_config import (
     SETTINGS,
     get_auth_db,
     get_redis
