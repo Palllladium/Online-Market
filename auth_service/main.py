@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 from sqlmodel import SQLModel
 from sqlalchemy import text
 
-from common.core.db_config import auth_engine, redis
+from common.common.core.db_config import auth_engine, redis
 from api import auth, users
 
 @asynccontextmanager

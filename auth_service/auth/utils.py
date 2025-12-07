@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, timezone
 import bcrypt
 import jwt
 
-from common.core.db_config import SETTINGS
+from common.common.core.db_config import SETTINGS
 
 
 def encode_jwt(
