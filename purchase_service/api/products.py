@@ -15,9 +15,9 @@ from services.products import (
     purchase_product_by_id,
 )
 
-from shared.core.db_config import get_db
-from shared.models.products import Product
-from shared.services.auth_proxy import verify_token_dependency
+from common.common.core.db_config import get_db
+from common.common.models.products import Product
+from common.common.services.auth_proxy import verify_token_dependency
 
 
 router = APIRouter(prefix="/products", tags=["Products"])

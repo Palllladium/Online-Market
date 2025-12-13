@@ -1,7 +1,7 @@
 import asyncio
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-from shared.core.db_config import INTERVAL
+from common.common.core.db_config import INTERVAL
 from etl import run_etl
 
 

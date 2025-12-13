@@ -1,7 +1,7 @@
 from sqlmodel import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from shared.models.products import Product
+from common.common.models.products import Product
 
 
 class ProductRepository:

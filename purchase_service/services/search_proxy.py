@@ -2,7 +2,7 @@ import httpx
 from http import HTTPStatus
 from fastapi import HTTPException
 
-from shared.core.db_config import SEARCH_SERVICE_URL
+from common.common.core.db_config import SEARCH_SERVICE_URL
 
 
 BAD_REQUEST = HTTPStatus.BAD_REQUEST

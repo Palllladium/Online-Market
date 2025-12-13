@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from sqlmodel import SQLModel
 from sqlalchemy import text
 
-from shared.core.db_config import products_engine
+from common.common.core.db_config import products_engine
 from api import products, auth_proxy
 
 

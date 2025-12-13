@@ -7,13 +7,13 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from http import HTTPStatus
 from typing import Annotated
 
-from shared.models.products import (
+from common.common.models.products import (
     Product, 
     ProductCreate, 
     ProductUpdate
 )
-from shared.core.db_config import get_db
-from shared.services.auth_proxy import verify_token_dependency
+from common.common.core.db_config import get_db
+from common.common.services.auth_proxy import verify_token_dependency
 from services.products import create_product, update_product
 
 

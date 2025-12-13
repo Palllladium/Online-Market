@@ -66,8 +66,6 @@ services:
     depends_on:
       products_postgres:
         condition: service_healthy
-    volumes:
-      - ./shared:/app/shared
     networks:
       - app-network
   
@@ -103,8 +101,6 @@ services:
     depends_on:
       elasticsearch:
         condition: service_healthy
-    volumes:
-      - ./shared:/app/shared
     networks:
       - app-network
   
@@ -144,8 +140,6 @@ services:
       elasticsearch:
         condition: service_healthy
     restart: unless-stopped
-    volumes:
-      - ./shared:/app/shared
     networks:
       - app-network
 
@@ -161,8 +155,6 @@ services:
     depends_on:
       products_postgres:
         condition: service_healthy
-    volumes:
-      - ./shared:/app/shared
     networks:
       - app-network
 
