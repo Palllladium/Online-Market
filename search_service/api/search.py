@@ -7,7 +7,7 @@ from fastapi import (
 from http import HTTPStatus
 
 from services.search import search_products
-from shared.services.auth_proxy import verify_token_dependency
+from common.common.services.auth_proxy import verify_token_dependency
 
 
 router = APIRouter(prefix="/search", tags=["Search"])

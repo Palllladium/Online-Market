@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 
 from api import search, auth_proxy
 from services.index_init import ensure_index_exists
-from shared.core.db_config import es, INDEX
+from common.common.core.db_config import es, INDEX
 
 
 @asynccontextmanager

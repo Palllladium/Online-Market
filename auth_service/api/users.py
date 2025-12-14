@@ -9,7 +9,7 @@ from auth.utils import hash_password
 from core.security import get_current_active_auth_user, get_current_token_payload
 from repositories.user_repository import UserRepository
 
-from shared.core.db_config import get_auth_db
+from common.common.core.db_config import get_auth_db
 
 
 router = APIRouter(prefix="/user", tags=["user"])

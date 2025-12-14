@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import (
 )
 from redis.asyncio import Redis
 from elasticsearch import AsyncElasticsearch
-from shared.core.config import get_settings
+from common.common.core.config import get_settings
 
 
 SETTINGS = get_settings()

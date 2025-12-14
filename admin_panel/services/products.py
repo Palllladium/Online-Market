@@ -2,7 +2,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlmodel import select
 from datetime import datetime as dt, timezone
 
-from shared.models.products import (
+from common.common.models.products import (
     Product, 
     ProductCreate, 
     ProductUpdate

@@ -1,7 +1,7 @@
-.env
 certs/
 __pycache__/
 venv_purchase/
 venv_search/
 venv_etl_process/
 venv_admpanel/
+PROJECT_STRUCTURE.txt

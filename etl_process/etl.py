@@ -2,7 +2,7 @@ from datetime import datetime as dt, timezone
 
 from extractor import extract_updated_products
 from loader import load_to_elasticsearch
-from shared.core.db_config import get_db_session_instance
+from common.common.core.db_config import get_db_session_instance
 
 
 last_sync_time = dt.now(timezone.utc)

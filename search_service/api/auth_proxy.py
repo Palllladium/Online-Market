@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Request
 import httpx
 
-from shared.core.db_config import AUTH_URL
+from common.common.core.db_config import AUTH_URL
 
 
 proxy_url = AUTH_URL.replace("user/me", "auth/login")

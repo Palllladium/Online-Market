@@ -1,4 +1,4 @@
-from shared.models.products import Product
+from common.common.models.products import Product
 from typing import Union, get_args, get_origin, Dict
 from sqlmodel import SQLModel
 from datetime import datetime

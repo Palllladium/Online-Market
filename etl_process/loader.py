@@ -1,5 +1,5 @@
-from shared.models.products import Product
-from shared.core.db_config import es, INDEX
+from common.common.models.products import Product
+from common.common.core.db_config import es, INDEX
 
 
 async def load_to_elasticsearch(products: list[Product]):

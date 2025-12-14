@@ -2,7 +2,7 @@ from datetime import datetime as dt
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlmodel import select
 
-from shared.models.products import Product
+from common.common.models.products import Product
 
 
 async def extract_updated_products(session: AsyncSession, since: dt) -> list[Product]:

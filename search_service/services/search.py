@@ -1,4 +1,4 @@
-from shared.core.db_config import es, INDEX, SIZE
+from common.common.core.db_config import es, INDEX, SIZE
 
 
 async def search_products(

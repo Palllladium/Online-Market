@@ -3,7 +3,7 @@ from fastapi.security import OAuth2PasswordBearer
 import httpx
 from http import HTTPStatus
 
-from shared.core.db_config import AUTH_URL
+from common.common.core.db_config import AUTH_URL
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
